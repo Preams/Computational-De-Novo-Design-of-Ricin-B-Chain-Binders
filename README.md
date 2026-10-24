@@ -1,2 +1,2 @@
-# Computational-De-Novo-Design-of-Ricin-B-Chain-Binders
+# _In Silico_ Evaluation of _De Novo_ Binders Targeting the Ricin B-Chain: Successes in Pocket-Targeting vs. Challenges in Shallow Epitopes
 This repository contains the results for designing protein binders for the Ricin B-chain. I designed a strong binder for one site, but the other two were harder to target because of their shape. The goal is to understand what works and this can help guide future protein design projects.
