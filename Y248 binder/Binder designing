@@ -1,0 +1,2 @@
+The main success of this project was designing a miniprotein binder from scratch that targets the Y248 residue in Subdomain 2γ of the Ricin B-chain. Although the binding site is shallow, the design approach produced a stable interaction with high confidence.
+The final design was validated using AlphaFold3 multimer prediction. The metrics confirm a high-confidence binding pose:
