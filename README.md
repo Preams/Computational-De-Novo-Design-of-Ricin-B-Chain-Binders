@@ -37,6 +37,7 @@ Apart from Y248, I also focused on two other regions, W37 and Y78, which are inv
 | 1α | Low-affinity Gal binding | Trp (37th residue) | Asp22, Arg24, Asp25, Gly26, Ala45 |
 | 1β | Gal binding site | Try (78th residue) | Tyr67, Tyr69, Ala83, Ala84 |
 | 2γ | High-affinity Gal/GalNAc binding | Try (248th residue) | Val235, Ala237, Ile246, Leu247, Pro249 |
+
 Based on my goal to target Trp37 (subdomain 1α), Tyr78 (subdomain 1β), and Tyr248 (subdomain 2γ), I used the pdb structure 2AAI. With 2.5Å, containing native ricin holotoxin; complexed with a carbohydrate ligand (mannose-rich N-glycan), this structure provides the complete RTB fold, showing the pseudo-threefold symmetry of the subdomains.
 ## Results:
 The Ricin B-chain (RTB) is difficult to design binders for because its carbohydrate-binding sites (W37, Y78, and Y248) are shallow surface depressions rather than deep pockets. This makes it harder to design a binder that fits the target and forms strong interactions. 
