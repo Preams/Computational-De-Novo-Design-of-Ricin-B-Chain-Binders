@@ -1,23 +1,2 @@
-# 👋 Hello, I'm Prem | Protein Engineer & Computational Biologist
-I’m a Protein Engineer interested in understanding how proteins work and how we can design new ones. My journey has taken me from cloning genes and growing bacteria to protein purification, binding studies, and computational protein design. I enjoy working at the intersection of experimental biology and AI, where lab results and computational models come together.
-
-🔬 Wet Lab & Protein Production 
-Gene cloning, plasmid design, and _E. coli_ culture Batch and fed-batch fermentation Protein purification, microfiltration, and ultrafiltration Incorporation of non-canonical amino acids into recombinant proteins
-
-🧪 Protein Characterization 
-FTIR, UV-Vis spectroscopy, and Circular Dichroism (CD) 
-Binding studies using Microscale Thermophoresis (MST)
-
-🧫 Cell Culture & Assays 
-Around 5 years of experience in mammalian cell culture and cell-based assays 
-MTT, siRNA silencing, scratch assays, CAM assays, and fluorescence imaging 
-2 years of experience studying mesenchymal stem cell differentiation into osteoblasts
-
-💻 Computational Protein Design 
-Designing new protein binders using RFdiffusion and ProteinMPNN 
-Protein structure prediction and complex modelling 
-Structure visualization and interface analysis and Molecular docking
-
-What excites me most is the possibility of designing proteins from scratch and then testing whether those designs work in the lab. 
-
-For me, protein engineering is about bringing computation and biology together to solve real problems.
+# 👋 # _In Silico_ Evaluation of _De Novo_ Binders Targeting the Ricin B-Chain
+This repository contains the code, workflow, and results for designing _de novo_ protein binders against the Ricin B-chain (PDB: 2AAI). The goal was to design miniprotein binders for three sugar-binding sites: Y248, W37, and Y78, to block the toxin from entering cells. I used AlphaFold3 to check the predicted structures and find promising binders. The Y248 site gave the best result, with an ipTM score of 0.84. However, W37 and Y78 were much harder to target because their surfaces were shallow. I tried different design methods, including beta-sheet models, guiding potentials, and partial diffusion, but the binders for these two sites reached ipTM scores of only around 0.4. By comparing deep pockets with shallow surfaces, this project explores how the shape of a binding site affects the binder design. The results show what worked, what did not, and what could be improved in future binder design projects.
