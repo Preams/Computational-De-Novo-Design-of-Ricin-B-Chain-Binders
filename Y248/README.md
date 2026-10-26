@@ -15,7 +15,7 @@ The final design was analysed using AlphaFold3
 Design Statergies:
 A standard _de novo_ design approach was not enough to achieve the desired interaction, so three additional strategies were used: 
 1. Beta-sheet model: The `Complex_beta` RFdiffusion model was used to generate flat beta-sheet backbones that fit the shallow shape of the Y248 cleft.
-2. 2. Guiding potentials: The `monomer_ROG` and interface contact potentials were used to help the binder fit closely against the target and increase the buried surface area.
+2. Guiding potentials: The `monomer_ROG` and interface contact potentials were used to help the binder fit closely against the target and increase the buried surface area.
 3. Partial diffusion: Low-noise partial diffusion was used to refine the final interface, remove atomic clashes, and preserve key hydrogen bonds and the salt bridge.
 
 
