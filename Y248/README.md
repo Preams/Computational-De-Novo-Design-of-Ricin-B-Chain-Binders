@@ -3,6 +3,7 @@ The most successful outcome of this project was the _de novo_ design of a minipr
 
 The final design was analysed using AlphaFold3
 
+
 |Metric|Score|Interpretation|
 |:---:|:---:|:---:|
 |ipTM|0.84|High confidence in the predicted interface|
@@ -11,6 +12,7 @@ The final design was analysed using AlphaFold3
 |Clash|0.0|Viable structure (Relaxed using partial diffusion)|
 |Ranking score|0.88|The model is structurally sound and the interaction between your binder and Ricin B is highly probable|
 |Fraction disordered|0.06|The N- and C-termini is disordered|
+
 
 Design Statergies:
 A standard _de novo_ design approach was not enough to achieve the desired interaction, so three additional strategies were used: 
@@ -25,7 +27,16 @@ A standard _de novo_ design approach was not enough to achieve the desired inter
 </figure>
 
 
+
 The final sequence of binder for Y248 region is given below:
 
 >Y248 binder
 EEEKKKREEYYKEHAEEIKEQNKKDTEEALKRLKERLKTEETSYSPSIKKVLELIDSGEKTLEEIWEEQLAKLKALVVLP
+
+
+<figure>
+<img width="686" height="809" alt="image" src="https://github.com/user-attachments/assets/2f701e26-a08c-423f-b051-60cfabf259bb" />
+<figcaption>Fig.2: AlphaFold3 PAE Heatmap for the Y248 Binder </figcaption>
+</figure>
+
+The deep green off-diagonal blocks shows high confidence in the predicted interface between the target (residues 1-82) and the designed binder (residues 83-342). This confirms a stable, high-affinity binding pose (ipTM = 0.84), validating the design despite the shallow surface geometry of the target.
