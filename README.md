@@ -16,12 +16,12 @@ Each of the 2 main domains is further subdivided into 4 subdomains:
 •	Domain 2 consists of subdomains 2λ, 2α, 2β and 2γ
 ## How does ricin enter a cell?
 The B-chain attaches to specific sugar-containing molecules on the surface of a cell.
-The cell then takes the toxin inside through a process called endocytosis. From there, ricin can move through several parts of the cell, including the Golgi apparatus and the endoplasmic reticulum.
-Inside the endoplasmic reticulum, the connection between the two chains can be broken. The A-chain can then reach the cell’s cytosol, where it becomes active.
-The A-chain targets a specific part of the 28S ribosomal RNA within the cell’s 60S ribosomal subunit. By removing a single adenine residue, it permanently disrupts the ribosome. Hence, cell can no longer make proteins properly. As protein production stops, essential cellular functions fail and the affected cell can eventually die.
+The cell then takes the toxin inside through a process called endocytosis. From there, ricin can move through several parts of the cell, including the Golgi apparatus and the endoplasmic 
 
-
+<figure>
 <img width="1640" height="1258" alt="Picture1" src="https://github.com/user-attachments/assets/ad865df1-359e-4f0b-b62d-448f6578edf1" />
+<figcaption><em>Fig.1: Overview of Ricin and Ricin chain B interaction with different Carbohydrate Recognition Domain (CRD) </em></figcaption>
+</figure>
 
 
 ## How can exposure happen?
@@ -37,7 +37,11 @@ Out of these eight domains I discussed earlier, three domains contain key amino 
 The Ricin B-chain has several sites that bind to sugars. These sites have shallow grooves and aromatic rings that help the toxin attach to sugars, which is important for its ability to bind to cells. I focused on Tyr248 (Y248) in Subdomain 2γ. Tyrosine 248 (Y248) plays an important role in helping ricin bind to host cells. Its aromatic side chain interacts with sugars such as galactose and GalNAc, helping the toxin attach to the surface of cells. This binding site is a shallow pocket on the Ricin B-chain. Once ricin attaches to the cell, it can enter through a process called receptor-mediated endocytosis. It then travels through the cell, passing through the Golgi apparatus before reaching the endoplasmic reticulum (ER). There, the A-chain separates and moves into the cytosol, where it blocks protein production. Studies have also shown that modifying Tyr248 with a chemical called N-acetylimidazole disrupts the B-chain's ability to bind sugars. 
 Apart from Y248, I also focused on two other regions, W37 and Y78, which are involved in sugar binding but have lower binding affinity. In subdomain 1α, Tryptophan 37 (W37) helps the Ricin B-chain bind to sugars by interacting with the sugar ring. It works together with other residues, including Asp22, Gln35, and Asn46, which help stabilize the binding through hydrogen bonds. In subdomain 1β, Tyrosine 78 (Y78) also plays a role in sugar binding. Studies have shown that changes to this residue can affect how well ricin binds to sugars. Changes to Y78, especially when combined with changes to W37 and Y248, can greatly reduce sugar binding and the toxin's ability to harm cells.
 
+
+<figure>
 <img width="1200" height="800" alt="ricin_shallow_surfaces" src="https://github.com/user-attachments/assets/ecc7d892-b4f2-4696-a31e-374e9baca30a" />
+<figcaption><em>Fig.2: Three important key residues (W-37, Y-78, and Y-248) are highlighted. </em></figcaption>
+</figure>
 
 
 | Sub domain | Role | Key residue | Other important residue |
