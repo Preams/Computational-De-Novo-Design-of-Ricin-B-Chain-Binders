@@ -19,7 +19,10 @@ The B-chain attaches to specific sugar-containing molecules on the surface of a 
 The cell then takes the toxin inside through a process called endocytosis. From there, ricin can move through several parts of the cell, including the Golgi apparatus and the endoplasmic reticulum.
 Inside the endoplasmic reticulum, the connection between the two chains can be broken. The A-chain can then reach the cell’s cytosol, where it becomes active.
 The A-chain targets a specific part of the 28S ribosomal RNA within the cell’s 60S ribosomal subunit. By removing a single adenine residue, it permanently disrupts the ribosome. Hence, cell can no longer make proteins properly. As protein production stops, essential cellular functions fail and the affected cell can eventually die.
-<img width="1640" height="1248" alt="Picture1" src="https://github.com/user-attachments/assets/622d43cd-8301-4114-9f60-81a6bcfe79d4" />
+
+
+<img width="1640" height="1258" alt="Picture1" src="https://github.com/user-attachments/assets/ad865df1-359e-4f0b-b62d-448f6578edf1" />
+
 
 ## How can exposure happen?
 Ricin toxicity depends heavily on the route of exposure. Inhalation, injection, and ingestion can all be dangerous, but they affect the body differently.
