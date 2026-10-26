@@ -1,5 +1,5 @@
 # Highaffinity binder
-The most successful outcome of this project was the _de novo_ design of a miniprotein binder targeting the Y248 residue (Subdomain 2γ) of the Ricin B-chain. Despite the target being a shallow surface cleft, the integration of advanced generative strategies yielded a highly stable and confident interaction.
+The most successful outcome of this project was the _de novo_ design of a miniprotein binder [[View](Binder.cif%20binder/Binder%20designing)] targeting the Y248 residue (Subdomain 2γ) of the Ricin B-chain. Despite the target being a shallow surface cleft, the integration of advanced generative strategies yielded a highly stable and confident interaction.
 
 The final design was analysed using AlphaFold3
 
