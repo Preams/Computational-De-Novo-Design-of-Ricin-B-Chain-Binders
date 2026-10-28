@@ -1,4 +1,4 @@
-# Highaffinity binder
+# Y248 Highaffinity binder
 The most successful outcome of this project was the _de novo_ design of a miniprotein binder [[View](Binder.cif%20binder/Binder%20designing)] targeting the Y248 residue (Subdomain 2γ) of the Ricin B-chain. Despite the target being a shallow surface cleft, the integration of advanced generative strategies yielded a highly stable and confident interaction.
 
 The final design was analysed using AlphaFold3
@@ -36,8 +36,7 @@ EEEKKKREEYYKEHAEEIKEQNKKDTEEALKRLKERLKTEETSYSPSIKKVLELIDSGEKTLEEIWEEQLAKLKALVVLP
 
 <figure>
 <img width="686" height="809" alt="image" src="https://github.com/user-attachments/assets/2f701e26-a08c-423f-b051-60cfabf259bb" />
-
-<figcaption>        Fig.2: AlphaFold3 PAE Heatmap for the Y248 Binder </figcaption>
+<figcaption>Fig.2: AlphaFold3 PAE Heatmap for the Y248 Binder </figcaption>
 </figure>
 
 The deep green off-diagonal blocks shows high confidence in the predicted interface between the target (residues 1-82) and the designed binder (residues 83-342). This confirms a stable, high-affinity binding pose (ipTM = 0.84), validating the design despite the shallow surface geometry of the target.
