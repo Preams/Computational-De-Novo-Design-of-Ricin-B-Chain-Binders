@@ -3,6 +3,14 @@ Although I have successfully produced a high-affinity binder for the Y248 pocket
 # Limitation
 The main problem here is may be due to structural nature of these binding sites rather than a limitation of the AI algorithms alone. Unlike Y248, W37 and Y78 are relatively shallow and flat surface regions. This makes them much harder to target.
 De novo design methods like RFdiffusion generally work well when there is a defined pocket or groove where a binder can fit. In these cases, the target provides enough structural features to guide the design. However, W37 and Y78 do not offer the same level of structural support. Because the surfaces are relatively flat, the designed binders often sit on top of them rather than forming a close and stable interaction. This can result in poor shape matching and the loss of important interactions with the surrounding solvent, making the binding interface less stable. 
+
+
+<figure>
+<img width="1086" height="458" alt="37th residue" src="https://github.com/user-attachments/assets/02cf9a68-fe1b-46f2-8c92-6b45aa3bd9a3" />
+<figcaption align="Center"><i>Figure 1: The protein (green), labelled with the target amino acid residues. This binder (red) was designed for 37th residue in Ricin. The Ricin has shallow binding surface and that may limit effective binder target interactions.</i></figcaption>
+</figure>
+
+
 # Troubleshooting
 I tried several approaches to improve the binding of these designs, but none produced a convincing result. First, I used guiding potentials like ROG and interface contact constraints to encourage the binders to make more contact with the target. This helped bring the designed proteins closer to the binding sites and increased the buried surface area. However, the resulting structures often had serious problems. In some models, I observed as many as 92 atomic clashes, along with no salt bridges. This suggested that the binders were being pushed against the target surface without forming meaningful chemical interactions. So increasing the number of contacts did not necessarily improve the quality of the binding interface. I also tried using the Complex_beta model to generate beta-sheet-based binders. The idea was to create flat structures that could better match the shape of the W37 and Y78 surfaces. Although the model successfully generated flat beta-sheet backbones, the predicted binding confidence remained low, with an ipTM score of around 0.37. This suggests that simply matching the overall shape of the target surface was not enough. The binding sites may require specific loop arrangements and local structural features that a relatively rigid beta-sheet scaffold could not provide.
 
